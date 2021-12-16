@@ -9,5 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src\\test\\resources",glue="org.StepDefinition",dryRun=false)
 public class fbRunnerClass {
 
-
+ private void sysout() {
+	
+sysout();
+}
 }
